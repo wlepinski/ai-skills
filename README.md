@@ -23,20 +23,33 @@ AI skills and commands aren't a trend. They're the new dotfiles. Welcome to the 
 
 ## Installation
 
-Each skill lives in its own directory under `skills/`. See the skill's README for specific installation instructions.
-
-### Quick Install
-
-To install a skill for your project:
+Clone the repo and run the install script:
 
 ```bash
-mkdir -p .claude/commands
-cp skills/<skill-name>/<skill-name>.md .claude/commands/
+git clone https://github.com/wlepinski/ai-skills.git
+cd ai-skills
+./install.sh
 ```
 
-To install a skill globally for all your projects:
+That's it. All skills are symlinked to `~/.claude/commands` — pull the repo anytime to get updates.
+
+### More options
 
 ```bash
-mkdir -p ~/.claude/commands
-cp skills/<skill-name>/<skill-name>.md ~/.claude/commands/
+# Install a specific skill
+./install.sh gordon-ramsay-me
+
+# Install into a project instead of globally
+./install.sh --project
+
+# Copy files instead of symlinking
+./install.sh --copy
+
+# See all available skills
+./install.sh --list
+
+# Uninstall
+./install.sh --uninstall
 ```
+
+Run `./install.sh --help` for the full usage guide.
