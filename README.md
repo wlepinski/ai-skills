@@ -13,6 +13,13 @@ AI skills and commands aren't a trend. They're the new dotfiles. Welcome to the 
 | Skill | Description |
 |-------|-------------|
 | [Gordon Ramsay Me](skills/gordon-ramsay-me/) | PR code review in the voice of Gordon Ramsay |
+| [ELI5](skills/eli5/) | Explain code like you're talking to a 5-year-old |
+| [Postmortem Prophet](skills/postmortem/) | Future incident postmortems for bugs that haven't happened yet |
+| [PR Poet](skills/pr-poet/) | PR descriptions as poetry with a structured summary underneath |
+| [Attenborough](skills/attenborough/) | David Attenborough narrates your codebase as a nature documentary |
+| [Exit Interview](skills/exit-interview/) | Interview code before deleting it and audit safe removal |
+| [Standup Comic](skills/standup/) | Daily standup summaries as a standup comedy routine |
+| [Rubber Duck](skills/rubber-duck/) | Socratic rubber duck debugging — asks questions, never gives answers |
 
 ## Installation
 
